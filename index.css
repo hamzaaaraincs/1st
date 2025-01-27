@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Times New Roman', Times, serif; */
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    /* border-top-left-radius: 2px;
+    border-top-right-radius: 2px; */
+    background-color: #2d3439;
+    height: 44px;
+    font-family: roboto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ricon{
+    display: inline-flex;
+    background-color:#00000033;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.5px solid black; */
+    
+    
+}
+
+.loginout{
+    display: flex;
+    color: white;
+    background-color: #00000033;
+    /* border: 0.5px solid black; */
+    height: 29px;
+    /* width: 10px; */
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 7px;
+    font-size: small;
+    border: none;
+
+}
+
+
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+   
+}
+
+.menu1{
+    width: 400px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    list-style-type: none;
+    margin-right: 11%;
+ 
+}
+
+.li{
+font-weight: 900;
+
+}
+
+
+
+.bg-img{
+    /* padding-right: 10%; */
+    display: flex;
+    background-image: url("Untitle2d.png");
+    height: 450px;
+   min-width: 100%;
+  justify-content: end;
+  align-items: center;
+  background-size: cover;
+  opacity: 95%;
+
+}
+
+.bgin{
+    padding-right: 10%;
+display: flex;
+flex-direction: column;
+    width: 570px;
+    color: rgb(255, 255, 255);
+    /* justify-content: center; */
+    align-items: end;
+    line-height: 30px;
+}
+
+.btn{
+    display: inline-block;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 4px;
+    background-color: rgb(145, 41, 41);
+}
+
+
+.content{
+    display: flex;
+    height: 350px;
+    background-color: #3697d9;
+    align-items: center;
+   justify-content: space-between;
+}
+
+
+.f123{
+    background-color: #ffffff;
+padding-left: 10%;
+    display: flexbox;
+
+        justify-content: center;
+        align-items: center;
+    
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    grid-row: 2;
+    
+}
+
+.f1{
+
+    background-color: #ffffff;
+    display: flex;
+    padding-top: 30px;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+.f2{
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 3%;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+.d2{
+    display: flex;
+   flex-direction: column;
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(241, 244, 247);
+    
+}
+
+.ld{
+    
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.dz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* margin-right: 170px; */
+
+}
+
+
+
+.f3{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    width: 300px;
+    /* margin-right: 20%; */
+    
+  
+    
+   
+
+
+}
+
+
+.lst{
+    color: #202122;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 11%;
+    height: 250px;
+}
+
+
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3439;
+    flex-direction: column;
+    height: 120px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+
+    footer{
+        background-color: aqua;
+    }
+    .bg-img, bgin ,  d2 content    loginout   logo   {
+
+    }
+    
+  }
